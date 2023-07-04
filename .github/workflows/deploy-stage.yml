@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: tobthemel/municipio-deploy/3.0@patch-2
+    - uses: skinnskattebergs-kommun/municipio-deploy/3.0@patch-2
       with:
         deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_STAGE }}
         deploy-port: ${{ secrets.DEPLOY_REMOTE_PORT_STAGE }}
